@@ -1,0 +1,4 @@
+ssl_certificate                 /etc/ssl/certs/public.crt;
+ssl_certificate_key             /etc/ssl/certs/private.key;
+ssl_client_certificate          /etc/ssl/certs/ca.crt;
+ssl_verify_client               optional;
