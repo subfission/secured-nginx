@@ -1,0 +1,2 @@
+    # Disable Tokens
+    server_tokens                   off;
