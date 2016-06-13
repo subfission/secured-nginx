@@ -1,0 +1,5 @@
+# This is only available if 
+# nginx-extra package is 
+# installed:
+
+more_set_headers                'Server: protected';
