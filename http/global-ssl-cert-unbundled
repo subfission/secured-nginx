@@ -1,4 +1,4 @@
 # Public key without a chained cert, for when authority is common
 
-ssl_certificate                 /etc/ssl/certs/public.crt;
-ssl_certificate_key             /etc/ssl/certs/private.key;
+ssl_certificate                 /etc/nginx-secure/ssl/public.crt;
+ssl_certificate_key             /etc/nginx-secure/ssl/private.key;
