@@ -1,0 +1,4 @@
+# Stop slow loris attacks
+
+keepalive_timeout               5 5;
+send_timeout                    10;
