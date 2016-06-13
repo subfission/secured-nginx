@@ -1,0 +1,3 @@
+# gzip bigger files only as small files waste cpu for compression
+
+gzip_min_length                 10240;

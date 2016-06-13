@@ -1,0 +1,4 @@
+# Passenger for Ruby on Rails Apps
+
+passenger_root                 /usr;
+passenger_ruby                 /usr/bin/ruby;

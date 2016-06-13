@@ -1,0 +1,10 @@
+# SSL Enhancements
+
+ssl_prefer_server_ciphers on;
+ssl_ciphers HIGH:!aNULL:!MD5:!kEDH;
+
+# After 10 minutes, the session will need to be refreshed
+ssl_session_timeout 10m;
+
+# 20 Mb worth of shared cache data between workers
+ssl_session_cache shared:SSL:20m;

@@ -1,0 +1,7 @@
+server {
+    # Drop requests to undefined servers (ex. direct IP address)
+    listen      80;
+
+    # Special nginx code to close connection
+    return      444;
+}
