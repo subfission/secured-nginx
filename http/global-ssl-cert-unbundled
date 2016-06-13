@@ -1,4 +1,4 @@
-# Public key without a chained Cert (not advisabled)
+# Public key without a chained cert, for when authority is common
 
 ssl_certificate                 /etc/ssl/certs/public.crt;
 ssl_certificate_key             /etc/ssl/certs/private.key;
