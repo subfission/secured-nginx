@@ -1,0 +1,4 @@
+# Combined public key and cert chain
+
+ssl_certificate                 /etc/ssl/certs/chained.crt;
+ssl_certificate_key             /etc/ssl/certs/private.key;
